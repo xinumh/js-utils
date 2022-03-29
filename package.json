@@ -1,0 +1,35 @@
+{
+  "name": "js-utils",
+  "version": "0.0.1",
+  "description": "javascript utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinumh/js-utils.git"
+  },
+  "keywords": [
+    "javascript",
+    "utils"
+  ],
+  "author": "xinumh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xinumh/js-utils/issues"
+  },
+  "homepage": "https://github.com/xinumh/js-utils#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "jest": "^27.5.1",
+    "rollup": "^2.70.1"
+  },
+  "dependencies": {
+    "@rollup/plugin-typescript": "^8.3.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.6.3"
+  }
+}
